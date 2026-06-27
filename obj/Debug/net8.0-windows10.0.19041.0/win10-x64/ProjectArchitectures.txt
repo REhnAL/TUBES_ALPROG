@@ -1,1 +1,0 @@
-C:\Users\Raihan\source\repos\Face_Recognition\Face_Recognition.csproj;x64
