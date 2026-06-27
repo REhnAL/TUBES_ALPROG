@@ -1,0 +1,204 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Face_Recognition.FaceRecognitionPage"
+             Title="Face Recognition"
+             BackgroundColor="#214B3B">
+
+    <Grid>
+
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#173B2F" Offset="0.0" />
+                <GradientStop Color="#214B3B" Offset="0.5" />
+                <GradientStop Color="#0F2D24" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <!-- Lingkaran animasi background -->
+        <Ellipse x:Name="VerifyCircle"
+                 WidthRequest="330"
+                 HeightRequest="330"
+                 Fill="#9FD8CB"
+                 Opacity="0.12"
+                 HorizontalOptions="End"
+                 VerticalOptions="Start"
+                 Margin="0,-120,-110,0" />
+
+        <Ellipse WidthRequest="360"
+                 HeightRequest="360"
+                 Fill="#8ED1C6"
+                 Opacity="0.10"
+                 HorizontalOptions="Start"
+                 VerticalOptions="End"
+                 Margin="-140,0,0,-150" />
+
+        <Grid Padding="45">
+
+            <Border StrokeThickness="0"
+                    BackgroundColor="#285A46"
+                    StrokeShape="RoundRectangle 34"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="1050"
+                    HeightRequest="600">
+
+                <Grid ColumnDefinitions="1.1*,1*">
+
+                    <!-- PANEL KIRI: ILUSTRASI -->
+                    <Border Grid.Column="0"
+                            BackgroundColor="#F4FAF8"
+                            StrokeThickness="0"
+                            StrokeShape="RoundRectangle 34,0,0,34">
+
+                        <Grid Padding="45">
+
+                            <Ellipse WidthRequest="240"
+                                     HeightRequest="240"
+                                     Fill="#DCEDEA"
+                                     Opacity="0.85"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center" />
+
+                            <Ellipse WidthRequest="90"
+                                     HeightRequest="90"
+                                     Fill="#BCD9D4"
+                                     Opacity="0.55"
+                                     HorizontalOptions="Start"
+                                     VerticalOptions="Start"
+                                     Margin="115,95,0,0" />
+
+                            <Ellipse WidthRequest="55"
+                                     HeightRequest="55"
+                                     Fill="#DCEDEA"
+                                     Opacity="0.9"
+                                     HorizontalOptions="End"
+                                     VerticalOptions="Center"
+                                     Margin="0,0,80,120" />
+
+                            <VerticalStackLayout HorizontalOptions="Start"
+                                                 VerticalOptions="Start"
+                                                 Spacing="2">
+
+                                <Label Text="SIAGA"
+                                       FontSize="26"
+                                       FontAttributes="Bold"
+                                       TextColor="#285A46" />
+
+                                <Label Text="Face Verification"
+                                       FontSize="14"
+                                       TextColor="#5B7F73" />
+
+                            </VerticalStackLayout>
+
+                            <VerticalStackLayout HorizontalOptions="Center"
+                                                 VerticalOptions="Center"
+                                                 Spacing="10">
+
+                                <Label Text="📷"
+                                       FontSize="120"
+                                       HorizontalOptions="Center" />
+
+                                <Label Text="Verifikasi Wajah"
+                                       FontSize="26"
+                                       FontAttributes="Bold"
+                                       TextColor="#285A46"
+                                       HorizontalOptions="Center" />
+
+                                <Label Text="Sistem akan mencocokkan wajah saat login dengan wajah yang tersimpan saat registrasi."
+                                       FontSize="15"
+                                       TextColor="#6D8B82"
+                                       HorizontalTextAlignment="Center"
+                                       WidthRequest="390" />
+
+                            </VerticalStackLayout>
+
+                            <HorizontalStackLayout HorizontalOptions="Start"
+                                                   VerticalOptions="End"
+                                                   Spacing="18">
+
+                                <Label Text="👤"
+                                       FontSize="35" />
+
+                                <Label Text="🔐"
+                                       FontSize="35" />
+
+                                <Label Text="✅"
+                                       FontSize="35" />
+
+                            </HorizontalStackLayout>
+
+                        </Grid>
+
+                    </Border>
+
+                    <!-- PANEL KANAN: VERIFIKASI -->
+                    <Grid Grid.Column="1"
+                          Padding="65,55"
+                          BackgroundColor="#285A46">
+
+                        <VerticalStackLayout Spacing="18"
+                                             VerticalOptions="Center">
+
+                            <Label Text="Face Recognition"
+                                   FontSize="36"
+                                   FontAttributes="Bold"
+                                   TextColor="White" />
+
+                            <Label Text="Klik tombol di bawah untuk membuka kamera dan melakukan verifikasi wajah."
+                                   FontSize="15"
+                                   TextColor="#CDE5DE"
+                                   Margin="0,0,0,16" />
+
+                            <Border BackgroundColor="#1F3F32"
+                                    StrokeThickness="0"
+                                    StrokeShape="RoundRectangle 24"
+                                    Padding="25"
+                                    HeightRequest="150">
+
+                                <VerticalStackLayout HorizontalOptions="Center"
+                                                     VerticalOptions="Center"
+                                                     Spacing="8">
+
+                                    <Label Text="👤"
+                                           FontSize="50"
+                                           HorizontalOptions="Center" />
+
+                                    <Label Text="Siap melakukan verifikasi"
+                                           TextColor="#E7F5F1"
+                                           FontSize="15"
+                                           HorizontalOptions="Center" />
+
+                                </VerticalStackLayout>
+
+                            </Border>
+
+                            <Button Text="Mulai Verifikasi Wajah"
+                                    Clicked="OnVerifyFaceClicked"
+                                    BackgroundColor="#8ED1C6"
+                                    TextColor="#173B2F"
+                                    CornerRadius="22"
+                                    HeightRequest="52"
+                                    FontAttributes="Bold"
+                                    Margin="0,18,0,0" />
+
+                            <Label x:Name="StatusLabel"
+                                   Text=""
+                                   TextColor="#FFD6D6"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   HorizontalTextAlignment="Center"
+                                   Margin="0,8,0,0" />
+
+                        </VerticalStackLayout>
+
+                    </Grid>
+
+                </Grid>
+
+            </Border>
+
+        </Grid>
+
+    </Grid>
+
+</ContentPage>

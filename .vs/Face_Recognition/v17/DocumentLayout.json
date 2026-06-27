@@ -1,0 +1,314 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\apikeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:apikeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\nlpapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:nlpapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\nlpknowledgebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:nlpknowledgebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\facerecognitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:facerecognitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\floodanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:floodanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\facerecognitionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:facerecognitionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\facerecognitionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:facerecognitionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\face_recognition.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:face_recognition.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|c:\\users\\raihan\\source\\repos\\face_recognition\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3436F8A-D62F-4FD2-9F62-4D1DF5A63336}|Face_Recognition.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NlpApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\NlpApiService.cs",
+              "RelativeDocumentMoniker": "NlpApiService.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\NlpApiService.cs",
+              "RelativeToolTip": "NlpApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T04:22:11.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiKeys.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\ApiKeys.cs",
+              "RelativeDocumentMoniker": "ApiKeys.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\ApiKeys.cs",
+              "RelativeToolTip": "ApiKeys.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T04:20:30.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "DatabaseService.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\DatabaseService.cs",
+              "RelativeToolTip": "DatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T20:26:21.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "DashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "DashboardPage.xaml.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAIBZwOsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:18:24.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LoginPage.xaml.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAmwOcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:12:35.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AgIAAHYBAAAAAAAAAAAuwIsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-18T15:11:48.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAmwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:07:44.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FaceRecognitionService.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\FaceRecognitionService.cs",
+              "RelativeDocumentMoniker": "FaceRecognitionService.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\FaceRecognitionService.cs",
+              "RelativeToolTip": "FaceRecognitionService.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAA4wM0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T18:12:04.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NlpKnowledgeBase.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\NlpKnowledgeBase.cs",
+              "RelativeDocumentMoniker": "NlpKnowledgeBase.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\NlpKnowledgeBase.cs",
+              "RelativeToolTip": "NlpKnowledgeBase.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAmwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T04:24:11.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "RegisterPage.xaml.cs",
+              "ViewState": "AgIAAFoBAAAAAAAAAAAmwHIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:40:49.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\UserSession.cs",
+              "RelativeDocumentMoniker": "UserSession.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\UserSession.cs",
+              "RelativeToolTip": "UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:09:46.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FloodAnalysisService.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\FloodAnalysisService.cs",
+              "RelativeDocumentMoniker": "FloodAnalysisService.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\FloodAnalysisService.cs",
+              "RelativeToolTip": "FloodAnalysisService.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAcwDQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T15:46:26.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\RegisterPage.xaml",
+              "RelativeToolTip": "RegisterPage.xaml",
+              "ViewState": "AgIAAKYCAAAAAAAAAAAmwL4CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-18T15:40:29.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\DashboardPage.xaml",
+              "RelativeToolTip": "DashboardPage.xaml",
+              "ViewState": "AgIAAJgCAAAAAAAAAEBVwLICAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-18T15:17:11.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FaceRecognitionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\FaceRecognitionPage.xaml",
+              "RelativeDocumentMoniker": "FaceRecognitionPage.xaml",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\FaceRecognitionPage.xaml",
+              "RelativeToolTip": "FaceRecognitionPage.xaml",
+              "ViewState": "AgIAALMAAAAAAAAAAAAgwMsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-18T15:13:32.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FaceRecognitionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\FaceRecognitionPage.xaml.cs",
+              "RelativeDocumentMoniker": "FaceRecognitionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\FaceRecognitionPage.xaml.cs",
+              "RelativeToolTip": "FaceRecognitionPage.xaml.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAgwGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:14:20.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Face_Recognition.csproj",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\Face_Recognition.csproj",
+              "RelativeDocumentMoniker": "Face_Recognition.csproj",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\Face_Recognition.csproj",
+              "RelativeToolTip": "Face_Recognition.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-18T15:28:15.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Raihan\\source\\repos\\Face_Recognition\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:18:52.145Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

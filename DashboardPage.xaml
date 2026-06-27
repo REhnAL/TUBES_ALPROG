@@ -1,0 +1,691 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Face_Recognition.DashboardPage"
+             Title="Dashboard"
+             BackgroundColor="#214B3B">
+
+    <Grid>
+
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#173B2F" Offset="0.0" />
+                <GradientStop Color="#214B3B" Offset="0.5" />
+                <GradientStop Color="#0F2D24" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Ellipse WidthRequest="330"
+                 HeightRequest="330"
+                 Fill="#9FD8CB"
+                 Opacity="0.10"
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 Margin="-130,-120,0,0" />
+
+        <Ellipse WidthRequest="360"
+                 HeightRequest="360"
+                 Fill="#8ED1C6"
+                 Opacity="0.10"
+                 HorizontalOptions="End"
+                 VerticalOptions="End"
+                 Margin="0,0,-140,-150" />
+
+        <Grid Padding="40">
+
+            <Border StrokeThickness="0"
+                    BackgroundColor="#F4FAF8"
+                    StrokeShape="RoundRectangle 34"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="1180"
+                    HeightRequest="650">
+
+                <Grid ColumnDefinitions="285,*">
+
+                    <Border Grid.Column="0"
+                            BackgroundColor="#285A46"
+                            StrokeThickness="0"
+                            StrokeShape="RoundRectangle 34">
+
+                        <Grid Padding="28"
+                              RowDefinitions="Auto,Auto,Auto,Auto,*,Auto">
+
+                            <VerticalStackLayout Grid.Row="0"
+                                                 Spacing="4">
+
+                                <Label Text="FLOOD RISK"
+                                       FontSize="28"
+                                       FontAttributes="Bold"
+                                       TextColor="White" />
+
+                                <Label Text="Fuzzy Analysis Dashboard"
+                                       FontSize="13"
+                                       TextColor="#CDE5DE" />
+
+                            </VerticalStackLayout>
+
+                            <Border Grid.Row="1"
+                                    BackgroundColor="#1F3F32"
+                                    StrokeThickness="0"
+                                    StrokeShape="RoundRectangle 18"
+                                    Padding="18"
+                                    Margin="0,26,0,0">
+
+                                <VerticalStackLayout Spacing="4">
+
+                                    <Label Text="Login sebagai"
+                                           FontSize="13"
+                                           TextColor="#A7C6BD" />
+
+                                    <Label x:Name="RoleLabel"
+                                           Text="Role"
+                                           FontSize="21"
+                                           FontAttributes="Bold"
+                                           TextColor="White" />
+
+                                </VerticalStackLayout>
+
+                            </Border>
+
+                            <Border Grid.Row="2"
+                                    BackgroundColor="#1F3F32"
+                                    StrokeThickness="0"
+                                    StrokeShape="RoundRectangle 18"
+                                    Padding="18"
+                                    Margin="0,16,0,0">
+
+                                <VerticalStackLayout Spacing="6">
+
+                                    <Label Text="Metode Utama"
+                                           FontSize="13"
+                                           TextColor="#A7C6BD" />
+
+                                    <Label x:Name="MainMethodLabel"
+                                           Text="Fuzzy Logic"
+                                           FontSize="20"
+                                           FontAttributes="Bold"
+                                           TextColor="White"
+                                           LineBreakMode="WordWrap" />
+
+                                    <Label Text="Regression dan K-Means digunakan sebagai analisis tambahan."
+                                           FontSize="12"
+                                           TextColor="#CDE5DE"
+                                           LineBreakMode="WordWrap" />
+
+                                </VerticalStackLayout>
+
+                            </Border>
+
+                            <Border Grid.Row="3"
+                                    BackgroundColor="#1F3F32"
+                                    StrokeThickness="0"
+                                    StrokeShape="RoundRectangle 18"
+                                    Padding="16"
+                                    Margin="0,16,0,0">
+
+                                <VerticalStackLayout Spacing="4">
+
+                                    <Label Text="Data Saat Ini"
+                                           FontSize="13"
+                                           TextColor="#A7C6BD" />
+
+                                    <Label Text="Simulasi Sensor"
+                                           FontSize="18"
+                                           FontAttributes="Bold"
+                                           TextColor="White" />
+
+                                    <Label Text="Nilai air dan hujan dapat diubah oleh operator."
+                                           FontSize="12"
+                                           TextColor="#CDE5DE"
+                                           LineBreakMode="WordWrap" />
+
+                                </VerticalStackLayout>
+
+                            </Border>
+
+                            <Label x:Name="SidebarDescriptionLabel"
+                                   Grid.Row="4"
+                                   Text="Dashboard menampilkan informasi sesuai role pengguna."
+                                   FontSize="13"
+                                   TextColor="#CDE5DE"
+                                   LineBreakMode="WordWrap"
+                                   Margin="0,20,0,0" />
+
+                            <Button Grid.Row="5"
+                                    Text="Logout"
+                                    Clicked="OnLogoutClicked"
+                                    BackgroundColor="#8ED1C6"
+                                    TextColor="#173B2F"
+                                    CornerRadius="20"
+                                    HeightRequest="48"
+                                    FontAttributes="Bold" />
+
+                        </Grid>
+
+                    </Border>
+
+                    <ScrollView Grid.Column="1">
+
+                        <VerticalStackLayout Padding="42,32"
+                                             Spacing="24">
+
+                            <VerticalStackLayout Spacing="5">
+
+                                <Label x:Name="WelcomeLabel"
+                                       Text="Selamat Datang"
+                                       FontSize="32"
+                                       FontAttributes="Bold"
+                                       TextColor="#173B2F" />
+
+                                <Label Text="Sistem Analisis Risiko Banjir Menggunakan Fuzzy Logic"
+                                       FontSize="17"
+                                       FontAttributes="Bold"
+                                       TextColor="#285A46"
+                                       LineBreakMode="WordWrap" />
+
+                                <Label Text="Berbasis data sensor ketinggian air dan curah hujan dengan analisis tambahan Regression dan K-Means Clustering."
+                                       FontSize="14"
+                                       TextColor="#6D8B82"
+                                       LineBreakMode="WordWrap" />
+
+                            </VerticalStackLayout>
+
+                            <Border x:Name="SensorInputPanel"
+                                    BackgroundColor="#FFFFFF"
+                                    Stroke="#DCEDEA"
+                                    StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 24"
+                                    Padding="22"
+                                    IsVisible="False">
+
+                                <VerticalStackLayout Spacing="14">
+
+                                    <Label Text="Input Data Sensor"
+                                           FontSize="22"
+                                           FontAttributes="Bold"
+                                           TextColor="#173B2F" />
+
+                                    <Label Text="Panel ini hanya muncul untuk operator. Masukkan data ketinggian air dan curah hujan, lalu sistem akan memprosesnya ulang."
+                                           FontSize="13"
+                                           TextColor="#6D8B82"
+                                           LineBreakMode="WordWrap" />
+
+                                    <Grid ColumnDefinitions="*,*,160"
+                                          ColumnSpacing="14">
+
+                                        <VerticalStackLayout Grid.Column="0"
+                                                             Spacing="6">
+
+                                            <Label Text="Ketinggian Air (cm)"
+                                                   FontSize="13"
+                                                   TextColor="#285A46"
+                                                   FontAttributes="Bold" />
+
+                                            <Border BackgroundColor="#EAF3F0"
+                                                    StrokeThickness="0"
+                                                    StrokeShape="RoundRectangle 16"
+                                                    HeightRequest="46"
+                                                    Padding="12,0">
+
+                                                <Entry x:Name="WaterInputEntry"
+                                                       Placeholder="Contoh: 72"
+                                                       Keyboard="Numeric"
+                                                       TextColor="#173B2F"
+                                                       PlaceholderColor="#8AA69D"
+                                                       BackgroundColor="Transparent" />
+
+                                            </Border>
+
+                                        </VerticalStackLayout>
+
+                                        <VerticalStackLayout Grid.Column="1"
+                                                             Spacing="6">
+
+                                            <Label Text="Curah Hujan (mm/jam)"
+                                                   FontSize="13"
+                                                   TextColor="#285A46"
+                                                   FontAttributes="Bold" />
+
+                                            <Border BackgroundColor="#EAF3F0"
+                                                    StrokeThickness="0"
+                                                    StrokeShape="RoundRectangle 16"
+                                                    HeightRequest="46"
+                                                    Padding="12,0">
+
+                                                <Entry x:Name="RainInputEntry"
+                                                       Placeholder="Contoh: 38"
+                                                       Keyboard="Numeric"
+                                                       TextColor="#173B2F"
+                                                       PlaceholderColor="#8AA69D"
+                                                       BackgroundColor="Transparent" />
+
+                                            </Border>
+
+                                        </VerticalStackLayout>
+
+                                        <Button Grid.Column="2"
+                                                Text="Proses"
+                                                Clicked="OnUpdateSensorClicked"
+                                                BackgroundColor="#285A46"
+                                                TextColor="White"
+                                                CornerRadius="18"
+                                                HeightRequest="46"
+                                                FontAttributes="Bold"
+                                                VerticalOptions="End" />
+
+                                    </Grid>
+
+                                </VerticalStackLayout>
+
+                            </Border>
+
+                            <Grid ColumnDefinitions="*,*,*"
+                                  ColumnSpacing="18">
+
+                                <Border Grid.Column="0"
+                                        BackgroundColor="#DCEDEA"
+                                        StrokeThickness="0"
+                                        StrokeShape="RoundRectangle 24"
+                                        Padding="22"
+                                        HeightRequest="170">
+
+                                    <VerticalStackLayout Spacing="8">
+
+                                        <Label Text="Air"
+                                               FontSize="22"
+                                               FontAttributes="Bold"
+                                               TextColor="#285A46" />
+
+                                        <Label Text="Ketinggian Air"
+                                               FontSize="15"
+                                               TextColor="#6D8B82" />
+
+                                        <Label x:Name="WaterLevelLabel"
+                                               Text="72 cm"
+                                               FontSize="28"
+                                               FontAttributes="Bold"
+                                               TextColor="#285A46" />
+
+                                        <Label x:Name="WaterStatusLabel"
+                                               Text="Air mulai naik"
+                                               FontSize="12"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                </Border>
+
+                                <Border Grid.Column="1"
+                                        BackgroundColor="#DCEDEA"
+                                        StrokeThickness="0"
+                                        StrokeShape="RoundRectangle 24"
+                                        Padding="22"
+                                        HeightRequest="170">
+
+                                    <VerticalStackLayout Spacing="8">
+
+                                        <Label Text="Hujan"
+                                               FontSize="22"
+                                               FontAttributes="Bold"
+                                               TextColor="#285A46" />
+
+                                        <Label Text="Curah Hujan"
+                                               FontSize="15"
+                                               TextColor="#6D8B82" />
+
+                                        <Label x:Name="RainfallLabel"
+                                               Text="38 mm/jam"
+                                               FontSize="28"
+                                               FontAttributes="Bold"
+                                               TextColor="#285A46" />
+
+                                        <Label x:Name="RainStatusLabel"
+                                               Text="Hujan sedang"
+                                               FontSize="12"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                </Border>
+
+                                <Border Grid.Column="2"
+                                        BackgroundColor="#DCEDEA"
+                                        StrokeThickness="0"
+                                        StrokeShape="RoundRectangle 24"
+                                        Padding="22"
+                                        HeightRequest="170">
+
+                                    <VerticalStackLayout Spacing="8">
+
+                                        <Label Text="Risiko"
+                                               FontSize="22"
+                                               FontAttributes="Bold"
+                                               TextColor="#285A46" />
+
+                                        <Label Text="Risiko Banjir"
+                                               FontSize="15"
+                                               TextColor="#6D8B82" />
+
+                                        <Label x:Name="RiskStatusLabel"
+                                               Text="Sedang"
+                                               FontSize="28"
+                                               FontAttributes="Bold"
+                                               TextColor="#285A46" />
+
+                                        <Label x:Name="RiskStatusDescriptionLabel"
+                                               Text="Tetap waspada"
+                                               FontSize="12"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                </Border>
+
+                            </Grid>
+
+                            <Border BackgroundColor="#FFFFFF"
+                                    Stroke="#DCEDEA"
+                                    StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 24"
+                                    Padding="24">
+
+                                <Grid ColumnDefinitions="*,250"
+                                      ColumnSpacing="22">
+
+                                    <VerticalStackLayout Grid.Column="0"
+                                                         Spacing="10">
+
+                                        <Label x:Name="DecisionTitleLabel"
+                                               Text="Hasil Analisis Fuzzy Logic"
+                                               FontSize="23"
+                                               FontAttributes="Bold"
+                                               TextColor="#173B2F" />
+
+                                        <Label x:Name="DecisionDescriptionLabel"
+                                               Text="Fuzzy Logic digunakan sebagai metode utama untuk menentukan tingkat risiko banjir berdasarkan ketinggian air dan curah hujan."
+                                               FontSize="14"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                        <Label x:Name="DecisionRuleLabel"
+                                               Text="Rule fuzzy akan ditampilkan sesuai hasil analisis."
+                                               FontSize="14"
+                                               TextColor="#285A46"
+                                               FontAttributes="Bold"
+                                               LineBreakMode="WordWrap" />
+
+                                        <Label x:Name="DataSourceLabel"
+                                               Text="Sumber data: simulasi sensor."
+                                               FontSize="12"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                    <Border Grid.Column="1"
+                                            BackgroundColor="#EAF3F0"
+                                            StrokeThickness="0"
+                                            StrokeShape="RoundRectangle 22"
+                                            Padding="20"
+                                            HeightRequest="160">
+
+                                        <VerticalStackLayout Spacing="8"
+                                                             VerticalOptions="Center">
+
+                                            <Label Text="Kategori Fuzzy"
+                                                   FontSize="13"
+                                                   TextColor="#6D8B82"
+                                                   HorizontalTextAlignment="Center" />
+
+                                            <Label x:Name="RiskCategoryBigLabel"
+                                                   Text="SEDANG"
+                                                   FontSize="34"
+                                                   FontAttributes="Bold"
+                                                   TextColor="#285A46"
+                                                   HorizontalTextAlignment="Center" />
+
+                                            <Label x:Name="RiskActionShortLabel"
+                                                   Text="Tetap waspada"
+                                                   FontSize="13"
+                                                   TextColor="#6D8B82"
+                                                   HorizontalTextAlignment="Center" />
+
+                                        </VerticalStackLayout>
+
+                                    </Border>
+
+                                </Grid>
+
+                            </Border>
+
+                            <Grid ColumnDefinitions="*,*,*"
+                                  ColumnSpacing="18">
+
+                                <Border Grid.Column="0"
+                                        BackgroundColor="#FFFFFF"
+                                        Stroke="#DCEDEA"
+                                        StrokeThickness="1"
+                                        StrokeShape="RoundRectangle 22"
+                                        Padding="20"
+                                        HeightRequest="150">
+
+                                    <VerticalStackLayout Spacing="8">
+
+                                        <Label Text="Fuzzy Score"
+                                               FontSize="17"
+                                               FontAttributes="Bold"
+                                               TextColor="#173B2F" />
+
+                                        <Label x:Name="FuzzyScoreLabel"
+                                               Text="0/100"
+                                               FontSize="27"
+                                               FontAttributes="Bold"
+                                               TextColor="#285A46" />
+
+                                        <Label Text="Skor utama hasil fuzzy logic."
+                                               FontSize="12"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                </Border>
+
+                                <Border Grid.Column="1"
+                                        BackgroundColor="#FFFFFF"
+                                        Stroke="#DCEDEA"
+                                        StrokeThickness="1"
+                                        StrokeShape="RoundRectangle 22"
+                                        Padding="20"
+                                        HeightRequest="150">
+
+                                    <VerticalStackLayout Spacing="8">
+
+                                        <Label Text="Regression"
+                                               FontSize="17"
+                                               FontAttributes="Bold"
+                                               TextColor="#173B2F" />
+
+                                        <Label x:Name="RegressionScoreLabel"
+                                               Text="0/100"
+                                               FontSize="27"
+                                               FontAttributes="Bold"
+                                               TextColor="#285A46" />
+
+                                        <Label Text="Estimasi skor risiko numerik."
+                                               FontSize="12"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                </Border>
+
+                                <Border Grid.Column="2"
+                                        BackgroundColor="#FFFFFF"
+                                        Stroke="#DCEDEA"
+                                        StrokeThickness="1"
+                                        StrokeShape="RoundRectangle 22"
+                                        Padding="20"
+                                        HeightRequest="150">
+
+                                    <VerticalStackLayout Spacing="8">
+
+                                        <Label Text="K-Means"
+                                               FontSize="17"
+                                               FontAttributes="Bold"
+                                               TextColor="#173B2F" />
+
+                                        <Label x:Name="ClusterLabel"
+                                               Text="Cluster"
+                                               FontSize="24"
+                                               FontAttributes="Bold"
+                                               TextColor="#285A46"
+                                               LineBreakMode="WordWrap" />
+
+                                        <Label Text="Pengelompokan pola data sensor."
+                                               FontSize="12"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                </Border>
+
+                            </Grid>
+
+                            <Grid ColumnDefinitions="*,*"
+                                  ColumnSpacing="18">
+
+                                <Border Grid.Column="0"
+                                        BackgroundColor="#FFFFFF"
+                                        Stroke="#DCEDEA"
+                                        StrokeThickness="1"
+                                        StrokeShape="RoundRectangle 22"
+                                        Padding="20">
+
+                                    <VerticalStackLayout Spacing="8">
+
+                                        <Label Text="Penjelasan Regression"
+                                               FontSize="19"
+                                               FontAttributes="Bold"
+                                               TextColor="#173B2F" />
+
+                                        <Label x:Name="RegressionDescriptionLabel"
+                                               Text="Regression digunakan untuk memperkirakan skor risiko secara numerik."
+                                               FontSize="14"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                </Border>
+
+                                <Border Grid.Column="1"
+                                        BackgroundColor="#FFFFFF"
+                                        Stroke="#DCEDEA"
+                                        StrokeThickness="1"
+                                        StrokeShape="RoundRectangle 22"
+                                        Padding="20">
+
+                                    <VerticalStackLayout Spacing="8">
+
+                                        <Label Text="Penjelasan K-Means"
+                                               FontSize="19"
+                                               FontAttributes="Bold"
+                                               TextColor="#173B2F" />
+
+                                        <Label x:Name="ClusterDescriptionLabel"
+                                               Text="K-Means digunakan untuk mengelompokkan pola data sensor."
+                                               FontSize="14"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                </Border>
+
+                            </Grid>
+
+
+                            <Border BackgroundColor="#FFFFFF"
+                                    Stroke="#DCEDEA"
+                                    StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 22"
+                                    Padding="20">
+
+                                <Grid ColumnDefinitions="240,*"
+                                      ColumnSpacing="18">
+
+                                    <VerticalStackLayout Grid.Column="0"
+                                                         Spacing="8">
+
+                                        <Label Text="Neural Network"
+                                               FontSize="19"
+                                               FontAttributes="Bold"
+                                               TextColor="#173B2F" />
+
+                                        <Label x:Name="NeuralNetworkScoreLabel"
+                                               Text="0/100"
+                                               FontSize="29"
+                                               FontAttributes="Bold"
+                                               TextColor="#285A46" />
+
+                                        <Label x:Name="NeuralNetworkCategoryLabel"
+                                               Text="Kategori"
+                                               FontSize="14"
+                                               FontAttributes="Bold"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                    <VerticalStackLayout Grid.Column="1"
+                                                         Spacing="8">
+
+                                        <Label Text="Formulasi Feedforward dan Backpropagation"
+                                               FontSize="19"
+                                               FontAttributes="Bold"
+                                               TextColor="#173B2F" />
+
+                                        <Label x:Name="NeuralNetworkDescriptionLabel"
+                                               Text="Neural Network digunakan sebagai pembanding skor risiko banjir."
+                                               FontSize="14"
+                                               TextColor="#6D8B82"
+                                               LineBreakMode="WordWrap" />
+
+                                    </VerticalStackLayout>
+
+                                </Grid>
+
+                            </Border>
+
+                            <Label x:Name="FeatureTitleLabel"
+                                   Text="Fitur Dashboard"
+                                   FontSize="25"
+                                   FontAttributes="Bold"
+                                   TextColor="#173B2F"
+                                   Margin="0,2,0,0" />
+
+                            <FlexLayout x:Name="MenuContainer"
+                                        Wrap="Wrap"
+                                        Direction="Row"
+                                        JustifyContent="Start"
+                                        AlignItems="Start" />
+
+                        </VerticalStackLayout>
+
+                    </ScrollView>
+
+                </Grid>
+
+            </Border>
+
+        </Grid>
+
+    </Grid>
+
+</ContentPage>
